@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" fill="none">
+  <!-- Background -->
+  <rect width="300" height="450" fill="#0d1b0f"/>
+  
+  <!-- Forest/jungle background -->
+  <defs>
+    <linearGradient id="jungleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a1e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2d5a2d;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0d1b0f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="450" fill="url(#jungleGrad)"/>
+  
+  <!-- Tree silhouettes -->
+  <g opacity="0.4">
+    <polygon points="50,450 60,350 70,450" fill="#1a2f1a"/>
+    <polygon points="230,450 240,320 250,450" fill="#1a2f1a"/>
+    <polygon points="20,450 30,380 40,450" fill="#1a2f1a"/>
+    <polygon points="260,450 270,360 280,450" fill="#1a2f1a"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="150" y="80" text-anchor="middle" fill="#4caf50" font-family="Arial Black" font-size="36" font-weight="bold">PUSHPA</text>
+  <text x="150" y="110" text-anchor="middle" fill="#81c784" font-family="Arial" font-size="16" font-weight="bold">THE RISE</text>
+  
+  <!-- Main character silhouette -->
+  <g transform="translate(120, 140)">
+    <rect x="0" y="0" width="60" height="140" rx="30" fill="#2e4a2e" opacity="0.9"/>
+    <circle cx="30" cy="25" r="18" fill="#3e5a3e"/>
+    <!-- Beard/mustache -->
+    <ellipse cx="30" cy="35" rx="12" ry="8" fill="#3e5a3e"/>
+  </g>
+  
+  <!-- Red sandalwood logs -->
+  <g opacity="0.7">
+    <rect x="30" y="320" width="80" height="15" rx="7" fill="#8d4004"/>
+    <rect x="190" y="340" width="80" height="15" rx="7" fill="#8d4004"/>
+    <rect x="60" y="360" width="70" height="15" rx="7" fill="#a0471a"/>
+  </g>
+  
+  <!-- Movie details -->
+  <text x="150" y="400" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12">ACTION • CRIME</text>
+  <text x="150" y="420" text-anchor="middle" fill="#4caf50" font-family="Arial" font-size="12" font-weight="bold">179 MIN • U/A</text>
+  
+  <!-- Border -->
+  <rect x="5" y="5" width="290" height="440" fill="none" stroke="#4caf50" stroke-width="2"/>
+</svg>

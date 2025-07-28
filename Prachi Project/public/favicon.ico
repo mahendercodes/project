@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+  <rect width="16" height="16" rx="3" fill="#1a1a1a"/>
+  
+  <!-- Simplified cinema seat for small size -->
+  <g transform="translate(3, 4)">
+    <!-- Seat base -->
+    <rect x="1" y="4" width="8" height="4" rx="1" fill="#D4AF37"/>
+    
+    <!-- Seat back -->
+    <rect x="2" y="2" width="6" height="4" rx="0.5" fill="#D4AF37"/>
+    
+    <!-- Armrests -->
+    <rect x="0.5" y="3" width="1" height="3" rx="0.5" fill="#B8941F"/>
+    <rect x="8.5" y="3" width="1" height="3" rx="0.5" fill="#B8941F"/>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" fill="none">
+  <!-- Background -->
+  <rect width="300" height="450" fill="#1a0f0a"/>
+  
+  <!-- Fire/explosion effect background -->
+  <defs>
+    <radialGradient id="fireGrad" cx="50%" cy="70%" r="60%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#d32f2f;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#1a0f0a;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect width="300" height="450" fill="url(#fireGrad)"/>
+  
+  <!-- Title -->
+  <text x="150" y="80" text-anchor="middle" fill="#ff6b35" font-family="Arial Black" font-size="48" font-weight="bold">RRR</text>
+  
+  <!-- Subtitle -->
+  <text x="150" y="110" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">RISE ROAR REVOLT</text>
+  
+  <!-- Character silhouettes -->
+  <g transform="translate(75, 140)">
+    <!-- Character 1 -->
+    <rect x="0" y="0" width="60" height="120" rx="30" fill="#2c1810" opacity="0.8"/>
+    <circle cx="30" cy="25" r="18" fill="#3c2820"/>
+  </g>
+  
+  <g transform="translate(165, 140)">
+    <!-- Character 2 -->
+    <rect x="0" y="0" width="60" height="120" rx="30" fill="#2c1810" opacity="0.8"/>
+    <circle cx="30" cy="25" r="18" fill="#3c2820"/>
+  </g>
+  
+  <!-- Action elements -->
+  <g opacity="0.6">
+    <polygon points="50,300 70,280 90,300 70,320" fill="#ff6b35"/>
+    <polygon points="210,320 230,300 250,320 230,340" fill="#ff6b35"/>
+    <polygon points="120,350 140,330 160,350 140,370" fill="#d32f2f"/>
+  </g>
+  
+  <!-- Movie details -->
+  <text x="150" y="390" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12">ACTION • DRAMA</text>
+  <text x="150" y="410" text-anchor="middle" fill="#ff6b35" font-family="Arial" font-size="12" font-weight="bold">187 MIN • U/A</text>
+  
+  <!-- Border -->
+  <rect x="5" y="5" width="290" height="440" fill="none" stroke="#ff6b35" stroke-width="2"/>
+</svg>

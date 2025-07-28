@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" fill="none">
+  <!-- Background -->
+  <rect width="300" height="450" fill="#0f0f0f"/>
+  
+  <!-- Medical/hospital background -->
+  <defs>
+    <radialGradient id="medicalGrad" cx="50%" cy="60%" r="80%">
+      <stop offset="0%" style="stop-color:#d32f2f;stop-opacity:0.4" />
+      <stop offset="70%" style="stop-color:#8b1538;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0f0f0f;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect width="300" height="450" fill="url(#medicalGrad)"/>
+  
+  <!-- Medical cross -->
+  <g transform="translate(130, 200)" opacity="0.3">
+    <rect x="0" y="10" width="40" height="10" fill="#d32f2f"/>
+    <rect x="15" y="0" width="10" height="30" fill="#d32f2f"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="150" y="80" text-anchor="middle" fill="#d32f2f" font-family="Arial Black" font-size="32" font-weight="bold">ARJUN</text>
+  <text x="150" y="110" text-anchor="middle" fill="#d32f2f" font-family="Arial Black" font-size="32" font-weight="bold">REDDY</text>
+  
+  <!-- Main character -->
+  <g transform="translate(120, 140)">
+    <rect x="0" y="0" width="60" height="150" rx="30" fill="#2a2a2a" opacity="0.9"/>
+    <circle cx="30" cy="25" r="18" fill="#3a3a3a"/>
+    <!-- Beard -->
+    <ellipse cx="30" cy="38" rx="15" ry="10" fill="#3a3a3a"/>
+    <!-- Stethoscope -->
+    <ellipse cx="30" cy="60" rx="25" ry="15" fill="none" stroke="#d32f2f" stroke-width="2"/>
+    <circle cx="15" cy="75" r="4" fill="#d32f2f"/>
+    <circle cx="45" cy="75" r="4" fill="#d32f2f"/>
+  </g>
+  
+  <!-- Broken heart symbol -->
+  <g transform="translate(140, 320)" opacity="0.7">
+    <path d="M 0 10 C 0 0, 10 0, 10 10 C 10 0, 20 0, 20 10 C 20 15, 10 25, 10 25 C 10 25, 0 15, 0 10" 
+          fill="#d32f2f"/>
+    <!-- Crack line -->
+    <line x1="10" y1="5" x2="10" y2="20" stroke="#0f0f0f" stroke-width="2"/>
+  </g>
+  
+  <!-- Pills/medical elements -->
+  <g opacity="0.6">
+    <ellipse cx="50" cy="350" rx="8" ry="4" fill="#ffffff"/>
+    <ellipse cx="250" cy="340" rx="6" ry="3" fill="#d32f2f"/>
+    <ellipse cx="80" cy="380" rx="7" ry="4" fill="#ffffff"/>
+  </g>
+  
+  <!-- Movie details -->
+  <text x="150" y="400" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12">ROMANCE • DRAMA</text>
+  <text x="150" y="420" text-anchor="middle" fill="#d32f2f" font-family="Arial" font-size="12" font-weight="bold">182 MIN • A</text>
+  
+  <!-- Border -->
+  <rect x="5" y="5" width="290" height="440" fill="none" stroke="#d32f2f" stroke-width="2"/>
+</svg>
